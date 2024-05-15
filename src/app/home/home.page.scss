@@ -26,13 +26,18 @@
   text-decoration: none;
 }
 
+.nameDev{
+  padding-left: 7em;
+}
+
 .searchBar{
-  --ion-background-color: #3B7E88;
+  --ion-background-color: #8539b1;
   color: white;
+  border-radius: 70px;
 }
 .cardStyle{
   border-radius: 30px;
-  --ion-background-color: #3B7E88;
+  --ion-background-color: #8539b1;
 
   span{
     color: white;
@@ -47,9 +52,7 @@
     color: orange;
   }
   #date{
-    color:orange;
+    color:rgb(240, 192, 59);
   }
-
-
 
 }

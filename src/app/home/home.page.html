@@ -1,8 +1,7 @@
-<ion-header [translucent]="true">
+<body >
 
-</ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="bacc" [fullscreen]="true">
 
   <div style="text-align: center;margin: 15px">
     <ion-label style="font-weight: 400; font-size: 2em;"> Previsão do Clima </ion-label>
@@ -25,7 +24,7 @@
     </ion-item>
 
     <ion-item>
-      <ion-icon id="locatioIcon" name="location"></ion-icon>
+      <ion-icon id="locationIcon" name="location"></ion-icon>
       <span>{{cityName}}</span>
     </ion-item>
   </ion-card>
@@ -54,9 +53,14 @@
 
 <div *ngIf="loading">
   <img src="../../assets/9169253.jpg" alt="sem resultados">
-  <span style="text-align: center;">Sem resultados</span>
+  <p style="text-align: center;"><span>Sem resultados</span></p>
+  <br><br><br><br><br><br><br>
+
+  <p class="nameDev"><span>Marcos Andrade e Rafael Godinho</span></p>
 </div>
 
 
 
 </ion-content>
+
+</body>
