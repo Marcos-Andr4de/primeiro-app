@@ -25,3 +25,31 @@
 #container a {
   text-decoration: none;
 }
+
+.searchBar{
+  --ion-background-color: #3B7E88;
+  color: white;
+}
+.cardStyle{
+  border-radius: 30px;
+  --ion-background-color: #3B7E88;
+
+  span{
+    color: white;
+    font-weight: 300;
+  }
+  #temp{
+    font-weight: 300;
+    font-size: 4em;
+    margin: 5px;
+  }
+  #locationIcon{
+    color: orange;
+  }
+  #date{
+    color:orange;
+  }
+
+
+
+}
